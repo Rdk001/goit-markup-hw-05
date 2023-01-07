@@ -173,6 +173,11 @@ body {
 }
 
 .icon-header {
+  display: flex;
+  text-align: center;
+
+  margin-right: 10px;
+
   fill: var(--secondary-text-color);
   transition: fill 250ms var(--timing-function);
 }
@@ -189,8 +194,9 @@ body {
   text-decoration: none;
 }
 
-.icon-header {
-  margin-right: 10px;
+.contacts .link {
+  display: flex;
+  text-align: center;
 }
 
 /* герой */
